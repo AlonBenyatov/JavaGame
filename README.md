@@ -16,7 +16,7 @@ This is a fully functional 2D RPG game featuring:
 ## 🏗️ OOP Fundamentals Implemented
 
 ### Core OOP Principles
-- **Inheritance**: `Enemy` abstract class extended by `Wolf`, `Slime`, `Snake`; `EquipableItem` extended by `Weapon`, `Armor`
+- **Inheritance**: `Enemy` abstract class extended by `Wolf`, `Slime` ; `EquipableItem` extended by `Weapon`, `Armor`
 - **Polymorphism**: `CharactersGeneralMethods` interface implemented by `Player` and `Enemy` classes
 - **Encapsulation**: Private fields with public getter/setter methods across all classes
 - **Abstraction**: Abstract `Enemy` and `EquipableItem` classes defining common behavior
@@ -27,10 +27,9 @@ This is a fully functional 2D RPG game featuring:
 - **Singleton Pattern**: Centralized `GameSaver` utility class
 - **Observer Pattern**: Automatic stat recalculation when equipment changes
 - **Factory Pattern**: Dynamic enemy generation with configurable parameters
-- **MVC Architecture**: Separation of game logic (`Handler`), UI (`GamePanel`), and data models (`Player`)
 
 ### Enterprise Java Features
-- **Serialization**: Complete save/load functionality with `ObjectInputStream`/`ObjectOutputStream`
+- **Serialization**: Complete save/load functionality 
 - **Exception Handling**: Robust error management with try-catch blocks and graceful degradation
 - **Generics & Collections**: Type-safe `ArrayList`, `HashMap` usage throughout
 - **Enum Types**: `EnemyType`, `EnemyRarity`, `EquipmentSlot` for type safety
@@ -52,7 +51,7 @@ This is a fully functional 2D RPG game featuring:
 ├── Equipment Framework
 │   ├── EquipableItem.java - Abstract equipment base
 │   ├── Weapon.java / Armor.java - Concrete implementations
-│   └── CraftItem.java - Crafting materials
+│   └── CraftItem.java - Crafting materials // still not done 
 └── GUI System
     ├── GameWindow.java - Main JFrame container
     ├── GamePanel.java - CardLayout screen manager
@@ -65,7 +64,7 @@ This is a fully functional 2D RPG game featuring:
 - **Complex State Management**: Multi-layered game state with automatic persistence
 - **Event-Driven Architecture**: Handler pattern coordinating game systems
 - **Modular Design**: Loosely coupled components enabling easy expansion
-- **Performance Optimization**: Efficient algorithms with O(1) lookups and lazy evaluation
+- **Performance Optimization**: Efficient algorithms with O(1) lookups 
 
 ## 💼 Professional Skills Demonstrated
 
