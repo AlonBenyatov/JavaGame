@@ -77,6 +77,7 @@ This is a fully functional 2D RPG game featuring:
 
 
 ## Note that Pngs are not organized but not big deal i hope (:
+## Project not finished but is running fine!
 ---
 
 *This project demonstrates senior-level Java development skills including advanced OOP principles, enterprise design patterns, mathematical problem-solving, and complex system architecture - directly applicable to software engineering roles requiring sophisticated technical expertise.*
